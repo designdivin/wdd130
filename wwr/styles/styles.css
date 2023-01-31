@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 #content{
     max-width: 1600px;
     margin:0 auto;
@@ -6,6 +7,7 @@ nav a{
     text-align: center;
     color: #8c031c;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -13,14 +15,21 @@ nav a{
 .button-box{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 main section{
     text-align: center;
+   
 }
 #background {
     height: 725px;
 }
 body{
     background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
 }
 header{
     background-color:#2cb9dd;
@@ -33,6 +42,10 @@ nav a:hover{
     background-color:#8c031c;
     color: #ffffff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color:#fb8b24;
@@ -40,17 +53,27 @@ nav a:hover{
 }
 #background{
     background-color:#8c031c;
+    margin-bottom: 50px;
 }
 .msg{
     background-color:#2cb9dd;
+    line-height: 1.5em;
+    padding: 35px;
     
 }
 footer{
     background-color:#2cb9dd;
     color: #8c031c;
+    padding: 25px 50px;
+    margin: 200px;
+    margin-left: 0;
+    margin-right: 0;
 }
 .home-title{
     color:#fb8b24;
+    font-family:dancing script;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h1{
     text-align: center;
@@ -59,6 +82,7 @@ h1{
 h4{
     text-align: center;
     color: #fb8b24;
+    font-family:dancing script;
 }
 footer a{
     color:#8c031c;
@@ -69,15 +93,20 @@ footer a:hover{
 }
 .msg p{
     color: #ffffff;
+    font-family:dancing script;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .msg h2{
     color: #8c031c;
+    font-family:dancing script;
 }
 .logo{
     width: 80px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -87,4 +116,22 @@ footer p {
 }    
 footer p a:hover {
     text-decoration: underline;
-}    
+} 
+h2{
+    margin: 0;
+}   
+footer .social img{
+    padding-top: 15px;
+}
+#link_link{
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #8c031c;
+}
+.mountains{
+    margin-bottom: 80px;
+}
