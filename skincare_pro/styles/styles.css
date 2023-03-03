@@ -20,6 +20,26 @@ header{
     width: 80px;
     border-radius: 50%;
 }
+.box{
+    background-image: url(../images/Social.jpg);
+    /*box-shadow: 0 5px 15px rgba(0,0,0,.5);*/
+    max-width: 700px;
+    padding: 50px;
+    border-radius: 10%;
+    text-align: center;
+    height: 400px;
+    
+    
+}
+.background{
+    
+        padding-top: 100px;
+        padding-right: 0px;
+        padding-bottom: 100px;
+        padding-left: 0px;
+        background-color: #f1f5f7!important;
+    border-radius: 5%;
+}
 nav a{
     text-align: center;
     color: #f2857d ;
@@ -50,6 +70,9 @@ h3{
     grid-row: 1/3;
     margin-top: 300px;
     margin-left: 50px;
+}
+p{
+    font-size: .8em;
 }
 .msg{
    display: grid;
