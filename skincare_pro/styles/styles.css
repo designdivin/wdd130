@@ -189,14 +189,10 @@ h2{
     grid-row: 1/2;
     
 }
-.paragraph3{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr ;
-}
+
 
 .shot{
-    grid-column: 2/4;
-    grid-row: 1/3;
+    float: right;
     width: 600px;
     height: 400px;
 }
