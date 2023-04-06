@@ -1,0 +1,57 @@
+.background{
+    background-color: black;
+    max-width: 800px;
+    padding: 50px;
+    text-align: center;
+    height: 750px;
+}
+h1,h2,p{
+    color: white;
+    text-align: center;
+}
+.pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+p{
+    margin: 5px;
+}
+h3{
+    background-color: brown;
+    text-align: center;
+}
+.style1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.style2{
+    grid-column: 2/4;
+    grid-row: 1/3;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.style3{
+    grid-column: 3/5;
+    grid-row: 1/3;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.style4{
+    grid-column: 4/6;
+    grid-row: 1/3;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.style{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+

@@ -31,6 +31,22 @@ header{
     
     
 }
+html{
+    scroll-behavior: smooth;
+}
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #f8af9a;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    color: black ;
+}
 .background{
     
         padding-top: 100px;
